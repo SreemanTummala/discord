@@ -39,4 +39,4 @@ client.on('message', message => {
   return;
   }
 });
-client.login(process.env.TOKEN);
+client.login("secret");
